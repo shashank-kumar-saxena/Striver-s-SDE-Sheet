@@ -1,11 +1,12 @@
 package com.shsnk.intersection;
 
 public class Node {
-    int data;
-    Node next;
-    Node(int val)
+   public int data;
+   public Node next;
+    public Node(int val)
     {
         data=val;
         next=null;
     }
+
 }
